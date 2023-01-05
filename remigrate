@@ -1,0 +1,5 @@
+php artisan config:cache
+php artisan migrate:refresh
+php artisan db:seed --class=DumbDataSeeder
+php artisan db:seed --class=CategoriesTableSeeder
+php artisan db:seed --class=CitiesDistrictsSeeder
